@@ -76,10 +76,10 @@ class Board extends Component {
 		}
 		// Flip initial cell
 		flipCell(y, x);
-		flipCell(y, x - 1);
-		flipCell(y, x + 1);
-		flipCell(y - 1, x);
-		flipCell(y + 1, x);
+		flipCell(y, x - 1); // Flip left
+		flipCell(y, x + 1); // Flip right
+		flipCell(y - 1, x); // Flip below
+		flipCell(y + 1, x); // Flip above
 
 		// TODO: flip this cell and the cells around it
 
